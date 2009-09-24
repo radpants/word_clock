@@ -1,0 +1,9 @@
+"Expires"	= "Expires:";
+"Expired" 	= "Expired";
+"HasExpired" 	= "This Screen Saver Has Expired";
+"Sound"		= "Screen Saver has sound";
+"NoSound" 	= "Screen Saver has no sound";
+"Warning" = "Warning!";
+"Delete" = "Delete";
+"Cancel" = "Cancel";
+"DeleteMsg" = "If you choose Delete the Screensaver will be deleted and System Preferences will Quit";

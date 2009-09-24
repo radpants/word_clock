@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BRPL</string>
+	<key>CFBundleSignature</key>
+	<string>MOSS</string>
+	<key>CFBundleName</key>
+	<string>Flash Player.plugin</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.macromedia.Flash Player.plugin</string>
+	<key>CFBundleExecutable</key>
+	<string>Flash Player</string>
+	<key>LSHasLocalizedDisplayName</key>
+	<false/>
+	<key>CFBundleShortVersionString</key>
+	<string>8.0.22</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en_US</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.1f22</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Macromedia Flash Player 8.0 r22 Copyright (c) Macromedia, Inc. 1996-2005 All rights reserved.</string>
+	<key>LSPrefersCarbon</key>
+	<string>YES</string>
+</dict>
+</plist>

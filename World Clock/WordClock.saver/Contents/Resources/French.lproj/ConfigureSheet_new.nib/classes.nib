@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {closeSheet = id; deleteScreensaver = id; }; 
+            CLASS = Fl03389ew; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                IBFl03389ew = Fl03389ew; 
+                IBconfigureSheet = id; 
+                IBexpirationDate = NSTextField; 
+                IBexpiresText = NSTextField; 
+                IBmovieSize = NSMatrix; 
+            }; 
+            SUPERCLASS = NSQuickDrawView; 
+        }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {closeSheet = id; launchBrowser = id; }; 
+            CLASS = qtsaverView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                IBFl03389ew = id; 
+                IBconfigureSheet = id; 
+                IBerase = id; 
+                IBexpirationDate = id; 
+                IBexpiresText = id; 
+                IBmovieSize = id; 
+                IBmute = Fl03389ew; 
+                IBscreenSaverHasSound = id; 
+                IBseconds = id; 
+                myOutlet = id; 
+            }; 
+            SUPERCLASS = ScreenSaverView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

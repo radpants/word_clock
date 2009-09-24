@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>fSavStb</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Word Clock</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Word Clock</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>Word Clock</string>
+	<key>CFBundleSignature</key>
+	<string>radpants</string>
+	<key>CFBundleVersion</key>
+	<string>0.1</string>
+	<key>NSPrincipalClass</key>
+	<string>ST03389Pref</string>
+</dict>
+</plist>
