@@ -65,12 +65,29 @@
 
 - (BOOL)hasConfigureSheet
 {
-    return NO;
+    return YES;
 }
 
 - (NSWindow*)configureSheet
 {
-    return nil;
+	[NSBundle loadNibNamed:@"Preferences" owner:self];
+	
+    return preferencesSheet;
+}
+- (IBAction)cancelClick:(id)sender{
+	[[NSApplication sharedApplication] endSheet:preferencesSheet];
+}
+- (IBAction)setPreferences:(id)sender{
+	//set intro text
+	//set night/day flag
+	//set theme color
+	//set theme text size
+	//set weather flag
+	//set zipcode
+}
+
+- (IBAction)updatePreview:(id)sender{
+	//update text to show what things will look like
 }
 
 @end

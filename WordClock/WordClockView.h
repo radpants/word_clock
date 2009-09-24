@@ -12,6 +12,15 @@
 @interface WordClockView : ScreenSaverView 
 {
 	WebView *web;
+	
+	IBOutlet id preferencesSheet;
+	
+	IBOutlet NSTextField *preview;
 }
 
+-(IBAction)updatePreview:(id)sender;
+-(IBAction)setPreferences:(id)sender;
+-(IBAction)cancelClick:(id)sender;
+
+//@property (nonatomic, retain) NSTextField *preview;
 @end

@@ -279,7 +279,7 @@ function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
 // -->
 </script>
 </head>
-<body bgcolor="#ffffff">
+<body bgcolor="#ffffff" style='margin:0;padding:0;'>
 <!--url's used in the movie-->
 <!--text used in the movie-->
 <!--
@@ -287,17 +287,22 @@ function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
 -->
 <!-- saved from url=(0013)about:internet -->
 <script language="JavaScript" type="text/javascript">
+	var url =  window.location.href;
+	url = url.replace(/.*html/,"");
+	if(url.length>0){
+		url = url.replace(/#/,"");
+	}
 	AC_FL_RunContent(
 		'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
-		'width', '800',
-		'height', '500',
+		'width', '100%',
+		'height', '100%',
 		'src', 'word_clock',
 		'quality', 'high',
 		'pluginspage', 'http://www.adobe.com/go/getflashplayer',
 		'align', 'middle',
 		'play', 'true',
 		'loop', 'true',
-		'scale', 'showall',
+		'scale', 'noborder',
 		'wmode', 'window',
 		'devicefont', 'false',
 		'id', 'word_clock',
@@ -307,14 +312,15 @@ function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
 		'allowFullScreen', 'false',
 		'allowScriptAccess','sameDomain',
 		'movie', 'word_clock',
-		'salign', ''
+		'salign', '',
+		'flashvars',url
 		); //end AC code
 </script>
 <noscript>
 	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="800" height="500" id="word_clock" align="middle">
 	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="allowFullScreen" value="false" />
-	<param name="movie" value="word_clock.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="word_clock.swf" quality="high" bgcolor="#ffffff" width="800" height="500" name="word_clock" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
+	<param name="movie" value="word_clock.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="word_clock.swf" quality="high" bgcolor="#ffffff" width="100%" height="100%" name="word_clock" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
 	</object>
 </noscript>
 </body>
